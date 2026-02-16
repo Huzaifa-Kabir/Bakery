@@ -1,10 +1,11 @@
+```css
 /* style.css */
 
 @import url(
 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&amp;display=swap');
 
 :root {
-    --color: #941d576a;
+    --color: #3498db; /* Changed to blue theme */
 }
 
 body {
@@ -64,7 +65,6 @@ section {
 .heading h1 {
     color: #000000;
     font-size: 4rem;
-
 }
 
 .title {
@@ -510,7 +510,6 @@ section {
 
 .footer {
     background: var(--color);
-
 }
 
 .footer .box-container {
@@ -518,7 +517,6 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
 }
-
 
 .footer .box-container .box h3 {
     font-size: 2.2rem;
@@ -573,8 +571,6 @@ section {
     color: rgb(0, 150, 10);
 }
 
-
-
 /* CSS */
 /* Hamburger Icon */
 /* Header Styles */
@@ -583,7 +579,7 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #941d576a;
+    background-color: var(--color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -627,8 +623,8 @@ section {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #941d576a;
-        border: 1px solid #941d576a;
+        background-color: var(--color);
+        border: 1px solid var(--color);
         z-index: 1000;
     }
 
@@ -648,10 +644,11 @@ section {
     }
 
     .navbar a:hover {
-        background-color: #941d56ab;
+        background-color: #2980b9; /* Adjusted for blue theme */
     }
 
     .hamburger {
         display: flex;
     }
 }
+```
